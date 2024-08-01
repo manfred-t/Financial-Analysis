@@ -1,1 +1,2 @@
-# Financial-Analysis
+# Financial Analysis Project
+
