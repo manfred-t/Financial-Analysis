@@ -27,11 +27,28 @@ The second account has a given force of interest of $\Large\frac{0.04}{1+.05t^2}
 
 The third account gives the accumulation function $\Large a^{III}(t) = (1 - .005t^2)^{-1}$. Using this, we can find the force of interest using the formula $\Large\frac{a’(t)} {a(t)}$.
 
-<img title="a title" alt="Force of Interest" src="/images/boo.svg">
+Force of Interest:
+
+<img title="a title" alt="Force of Interest" src="/images/foi_FA.png">
+
+
+After we have calculated all of the forces of interest, we plot them to see which accounts have the most value at a given time, as shown below in diagram 1.
+
+<img title="a title" alt="Force of Interest" src="/images/graph_FA.png">
+
+The x-axis represents how much time has passed; in this problem, we are looking from t=0 to t=5. The y-axis represents the force of interest, delta t. The higher it is, the more interest you receive at that given time. Thus we are looking for the highest force of interest at each time period. We can find three distinct time periods. The first, from t=0 to t=2.5029, uses account 2. The second, from t=2.509 to t=2.916, uses account 1. The third, from t=2.916 to t=5, uses account 3. Knowing the highest force of interest allows us to use the associated accumulation function in order to calculate the amount of interest earned. We can use the force of interests to find the accumulation function for each time period, using the formula:
+
+<img title="a title" alt="Force of Interest" src="/images/accum_FA.png">
+
+We can use these accumulation functions alongside the initial investment of 10000 in order to find out the maximum amount it can be turned into by the end of t=5.
+
+<img title="a title" alt="Force of Interest" src="/images/total_FA.png">
+
+This leaves us with a final amount $12,140.26, the maximum amount of money that can be accumulated at time t=5.
 
 
 
+## Citations
 
-
-
+This example problem was taken from Mathematical Interest Theory (2008) by Leslie Jane Federer Vaaler and James Daniel.
 
