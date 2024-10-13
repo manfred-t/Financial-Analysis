@@ -13,7 +13,7 @@ The money in the account may be transfered at any time. Assuming we start with $
 
 ## Breakdown
 
-We are given three different investment methods and are asked for the optimal investment strategy. Since we are seeking maaximal profits, the approach for this problem is to look at the force of interest for each investment method. This way, we can directly compare the time value of each investment. We can use that to determine which account the money should be held in at a given time period.
+We are given three different investment methods and are asked for the optimal investment strategy. Since we are seeking maximal profits, the approach for this problem is to look at the force of interest for each investment method. This way, we can directly compare the time value of each investment. We can use that to determine which account the money should be held in at a given time period.
 
 #### Account 1
 
